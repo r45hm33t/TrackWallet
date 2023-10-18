@@ -19,6 +19,22 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.header-container {
+  background-color: #1abc9c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 36px; 
+  margin-bottom: 10px; 
+}
+
+.header-subtitle {
+  font-size: 18px; 
+}
+
 .container {
   margin: 30px auto;
   width: 350px;

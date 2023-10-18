@@ -5,7 +5,7 @@ import { GlobalContext } from '../context/GlobalState';
 function moneyFormatter(num) {
   let p = num.toFixed(2).split('.');
   return (
-    '$ ' +
+    '₹ ' +
     p[0]
       .split('')
       .reverse()
@@ -34,13 +34,13 @@ export const IncomeExpenses = () => {
   return (
     <div className="inc-exp-container">
         <div>
-          <h4>Income</h4>
+          <h4>INCOME</h4>
   <p className="money plus">{moneyFormatter(income)}</p>
         </div>
         <div>
-          <h4>Expense</h4>
+          <h4>EXPENSE</h4>
   <p className="money minus">{moneyFormatter(expense)}</p>
         </div>
-      </div>
+    </div>
   )
 }
