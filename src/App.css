@@ -21,9 +21,12 @@ body {
 
 .header-container {
   background-color: #1abc9c;
+  box-shadow: var(--box-shadow);
   color: white;
   padding: 20px;
   text-align: center;
+  margin: 10px 0 30px;
+  width: 100%;
 }
 
 .header-title {
